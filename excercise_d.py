@@ -25,7 +25,13 @@ total = highest_num - lowest_num
 print(total)
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
-
+num = 0
+for i in numbers:
+    if i == num:
+        print(True)
+    if i == 2:
+        num = i
+# not sure if this is correct
 
 # 4. Print the sum of the numbers, 
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
