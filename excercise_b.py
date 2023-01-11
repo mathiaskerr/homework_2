@@ -92,6 +92,11 @@ users["Erik"]["pets"].insert(0,
     },)
 
 print(users["Erik"]["pets"])
+
+#you could asign values to variables to help
+#eriks_pets = users['Erik']['Pets']
+#new_pet = {'name' : 'Fluffy' , 'species : 'Dog'}
+#eriks-pets.append(new_pet)
 # 10. Add another person to the users dictionary
 
 users["Mathias"] = {"twitter" : "mathias123", "lottery_numbers" :[2,5,8,4,7,8], "home_town" : "Glasgow"} 

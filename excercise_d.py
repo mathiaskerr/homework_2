@@ -27,10 +27,10 @@ print(total)
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 num = 0
 for i in numbers:
-    if i == num:
+    if i == num :
         print(True)
     if i == 2:
-        num = i
+            num = i          
 # not sure if this is correct
 
 # 4. Print the sum of the numbers, 

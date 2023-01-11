@@ -12,7 +12,7 @@ print(stops)
 #4. Print out the index position of "Linlithgow"
 print(stops.index("Linlithgow"))
 #5. Remove "Livingston" from the list using its name
-stops.pop(6)
+stops.remove("Livingston")
 print(stops)
 #6. Delete "Cumbernauld" from the list by index
 stops.pop(2)
@@ -20,7 +20,7 @@ print(stops)
 #7. Print the number of stops there are in the list
 print(len(stops))
 #8. Sort the list alphabetically
-print(sorted(stops))
+print(sorted(stops)) #stops.sort is permanent whereas sorted() actions it once
 #9. Reverse the positions of the stops in the list
 stops.sort(reverse = True)
 print(stops)
